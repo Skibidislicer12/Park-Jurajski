@@ -465,8 +465,122 @@ body{
     text-align: center;
 }
 @media screen and (max-width: 550px) {
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-       }
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .navbar a {
+        font-size: 120%;
+        padding: 5px;
+    }
+    .main {
+        width: 90%;
+        padding: 15px;
+    }
+    .nasz-park h1 {
+        font-size: 30px;
+    }
+    .artykuł h2 {
+        font-size: 24px;
+    }
+    .artykuł-photo {
+        width: 100%;
+    }
+    .tekst-artykuł p {
+        font-size: 18px;
+    }
+    .tekst-artykuł img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .linki {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .linki a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .tło {
+        height: 300px;
+        background-size: cover;
+    }
+    .promocje {
+        font-size: 24px;
+    }
+    .promocje h2 {
+        font-size: 150%;
+    }
+    .big-logo, .linki-stopka, .social-media {
+        width: 100%;
+        height: auto;
+    }
+    .big-logo img {
+        width: 100%;
+    }
+    .social-media img {
+        width: 60px;
+        margin: 5px;
+    }
+    .linki-stopka img {
+        width: 50%;
+    }
+    .all-dinosaurs {
+        width: 90%;
+        height: auto;
+    }
+    .lewa, .prawa {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .div-dino {
+        width: 45%;
+        margin: 10px;
+    }
+    .div-dino img {
+        width: 100%;
+    }
+    .o-nas {
+        width: 90%;
+        padding: 5px;
+    }
+    .o-nas img {
+        width: 100px;
+    }
+    .onas1, .onas2 {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .o-nas h2 {
+        font-size: 28px;
+    }
+    .ceny {
+        width: 90%;
+        height: auto;
+    }
+    .ceny table {
+        width: 100%;
+        border-spacing: 10px;
+    }
+    .główne {
+        width: 90%;
+        padding: 5px;
+    }
+    .dino-img1, .dino-img2 {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .godziny-otwarcia table {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .godziny-dół-lewe, .godziny-dół-prawe, .godziny-góra-lewe, .godziny-góra-prawe {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
