@@ -464,10 +464,9 @@ body{
 .godziny-dół-lewe p, h3,.godziny-dół-prawe p, h3,.godziny-góra-lewe p, h3,.godziny-góra-prawe p, h3{
     text-align: center;
 }
- @media screen and (max-width: 600px) {
-    nav a {
-      float: none;
-      display: block;
-      text-align: center; 
-    }
- }
+@media screen and (max-width: 550px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
