@@ -1,0 +1,592 @@
+body{
+    background-color: rgb(224, 244, 215);
+    overflow: scroll;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    height: 70px;
+    background-color:rgba(4, 65, 18, 0.9) ;
+    left: 0;
+    z-index: 1001;
+    clear: both;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 160%;
+}
+.navbar a:hover{
+    color: rgb(5, 5, 58);
+    transition: 0.3s;
+    font-size: 30px;
+}
+.navbar img{
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+}
+.main{
+    margin-top:70px ;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    height: auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+.nasz-park{
+    text-align: center;
+    font-size: 22px;
+}
+.nasz-park-img{
+    float: right;
+}
+.nasz-park-img-dwa{
+    float: left;
+}
+.nasz-park h1{
+    padding: 10px;
+    font-size: 50px;
+}
+.artykuł3, .artykuł4, .artykuł2, .artykuł1{
+    background-color: #a3b79f;
+}
+.tekst-artykuł{
+    width: 100%;
+    clear: both;
+    margin: auto;
+    padding: 0px;
+    margin: 0px;
+}
+.artykuł {
+    margin-top: 100px;
+}
+#artykuł4, #artykuł3, #artykuł2, #artykuł1{
+    display: none;
+}
+#artykuł4:target, #artykuł3:target, #artykuł2:target, #artykuł1:target{
+    display: block;
+}
+.artykuł h2{
+    text-align: center;
+    font-size: 30px;
+}
+.artykuł-photo{
+    width: 20%;
+}
+.tekst-artykuł p{ 
+    font-size: 20px;
+}
+.tekst-artykuł img{ 
+    float: left;
+}
+.tekst-artykuł h2{ 
+    font-size: 35px;
+}
+.linki a{
+    text-decoration: none;
+    border: 2px solid black;
+    width: 25%;
+    padding: 40px;
+    background-color: #6a9075;
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linki{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.linki a:hover{
+    background-color: #41d36a;
+    transition: 1s;
+    color: wheat;
+}
+.tło{
+    margin-top: 150px;
+    width: 100%;
+    background-image: url(../zdj/dinozaur.jpg);
+    background-size: 100%;
+    background-position: center center;
+    opacity: 0.8;
+    height: 500px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+.promocje{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.469);
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px white, inset 0px 0px 10px white;
+    text-shadow: 1px 1px 5px white, 0;
+    font-size: 40px;
+}
+.promocje h2{
+    font-size: 200%;
+}
+.Konkurs p, li, h3, h4{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.footer{
+    width: 100%;
+}
+.big-logo, .linki-stopka, .social-media{
+    float: left;
+    width: 33.333333%;
+    background-color: #d2d4c4;
+    height: 400px;
+}
+.big-logo img{
+    width: 500px;
+    height: auto;
+    border-radius: 100%;
+}
+.big-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media img{
+    width: 80px;
+    height: auto;
+    display: block;
+    border-radius:100% ;
+    margin: 10px;
+}
+.linki-stopka img{
+    width: 30%;
+    height: auto;
+}
+.partnerzy{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partnerzy img{
+    width: 170px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.informacje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.all-dinosaurs img{
+    width: 200px;
+    height: auto;
+}
+.all-dinosaurs {
+    margin-top: 70px;
+    width: 60%;
+    margin-left:20% ;
+    margin-right: 20%;
+    background-color: beige;
+    height: 2200px;
+    
+}
+.lewa, .prawa{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+.div-dino{
+    margin: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.div-dino img{
+    width: 275px;
+    border: 3px solid black;
+    margin: 0px;
+}
+.all-dinosaurs h2{
+    text-align: center;
+    font-size: 50px;
+}
+.div-dino p{
+    border: 3px solid black;
+    margin: 0px;
+    padding: 0px;
+    background-color: #91998d;
+}
+.o-nas{
+    width: 60%;
+    height: auto;
+    background-color: beige;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+.o-nas img{
+    width: 200px;
+}
+.onas1{
+    float: left;
+}
+.onas2{
+    float: right;
+}
+.o-nas h2{
+    text-align: center;
+    font-size: 40px;
+}
+.ceny{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 480px;
+    font-weight: 600;
+}
+.ceny td, th{
+    border: 2px solid black;
+    background-color: rgba(132, 148, 148, 0.87);
+    padding: 5px;
+}
+.ceny table{
+    border-spacing: 22px;
+    border-collapse: collapse;
+}
+.główne img{
+    width: 180px;
+    height: 90px;
+}
+.główne{
+    width: 65%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: beige;
+    margin-top: 70px;
+    padding: 8px;
+    border: 3px solid black;
+    animation-name: animacja-obramowania;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+    animation-direction:normal;
+    animation-timing-function: linear;
+}
+.dino-img1{
+    float: left;
+}
+.dino-img2{
+    float: right;
+}
+.główne h2{
+    text-align: center;
+}
+.kotwica-w-dół{
+    border-radius: 100%;
+    background-color: aliceblue;
+    right: 100px;
+    padding: 10px;
+    top: 100px;
+    position: fixed;
+}
+.kotwica-w-dół img{
+    width: 50px;
+    height: 50px;
+}
+.kotwica-w-góre img{
+    width: 50px;
+    height: 50px;
+}
+.kotwica-w-góre{
+    border-radius: 100%;
+    background-color: aliceblue;
+    right: 100px;
+    padding: 10px;
+    top: 900px;
+    position: fixed;
+}
+@keyframes animacja-obramowania{
+    10%{
+        border: 3px yellow solid;
+    }
+    20%{
+        border: 3px rgb(81, 255, 0) solid;
+    }
+    30%{
+        border: 3px rgb(0, 255, 76) solid;
+    }
+    40%{
+        border: 3px rgb(0, 255, 213) solid;
+    }
+    50%{
+        border: 3px rgb(0, 89, 255) solid;
+    }
+    60%{
+        border: 3px rgb(17, 0, 255) solid;
+    }
+    70%{
+        border: 3px rgb(162, 0, 255) solid;
+    }
+    80%{
+        border: 3px rgb(255, 0, 179) solid;
+    }
+    90%{
+        border: 3px rgb(255, 0, 85) solid;
+    }
+    100%{
+        border: 3px rgb(255, 0, 0) solid;
+    }
+}
+.div-dino img:hover{
+    animation-name: animacja-obramowania;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+    animation-direction:normal;
+    animation-timing-function: linear;
+}
+.godziny-otwarcia{
+    margin-top: 100px;
+    width: 100%;
+}
+.góra, .środek, .dół{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.godziny-otwarcia table{
+    margin: 35px;
+}
+.godziny-otwarcia td, tr, th{
+    text-align: center;
+}
+.wolne{
+    background-color: grey;
+    border: 2px solid black;
+    padding: 2px;
+}
+.soboty{
+    background-color: rgb(6, 158, 6);
+    border: 2px solid black;
+    padding: 2px;
+}
+.niedziele{
+    background-color: rgb(5, 107, 5);
+    border: 2px solid black;
+    padding: 2px;
+}
+.normalny{
+    background-color: rgb(24, 155, 207);
+    border: 2px solid black;
+    padding: 2px;
+}
+.godziny-otwarcia table{
+    margin: 25px;
+    width: 15%;
+    border: 3px solid black;
+}
+.godziny-otwarcia caption{
+    font-size:xx-large;
+    font-weight: 800;
+}
+.godziny{
+    width: 100%;
+    margin-top:50px ;
+}
+.godziny-dół, .godziny-góra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+.godziny-dół-lewe,.godziny-dół-prawe,.godziny-góra-lewe,.godziny-góra-prawe{
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    margin: 70px;
+    border-radius: 10%;
+}
+.godziny-dół-lewe{
+    background-color: rgb(6, 158, 6);
+}
+.godziny-dół-prawe{
+    background-color: rgb(5, 107, 5);
+}
+.godziny-góra-lewe{
+    background-color: rgb(24, 155, 207);
+}
+.godziny-góra-prawe{
+    background-color: grey;
+}
+.godziny-dół-lewe:hover,.godziny-dół-prawe:hover,.godziny-góra-lewe:hover,.godziny-góra-prawe:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.godziny-dół-lewe:hover{
+    background-color: rgb(9, 207, 9);
+}
+.godziny-dół-prawe:hover{
+    background-color: rgb(8, 151, 8);
+}
+.godziny-góra-lewe:hover{
+    background-color: rgb(24, 179, 240);
+}
+.godziny-góra-prawe:hover{
+    background-color: rgb(182, 182, 182);
+}
+.godziny-dół-lewe p, h3,.godziny-dół-prawe p, h3,.godziny-góra-lewe p, h3,.godziny-góra-prawe p, h3{
+    text-align: center;
+}
+@media screen and (max-width: 550px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .navbar a {
+        font-size: 120%;
+        padding: 5px;
+    }
+    .main {
+        width: 90%;
+        padding: 15px;
+    }
+    .nasz-park h1 {
+        font-size: 30px;
+    }
+    .artykuł h2 {
+        font-size: 24px;
+    }
+    .artykuł-photo {
+        width: 100%;
+    }
+    .tekst-artykuł p {
+        font-size: 18px;
+    }
+    .tekst-artykuł img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .linki {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .linki a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .tło {
+        height: 300px;
+        background-size: cover;
+    }
+    .promocje {
+        font-size: 24px;
+    }
+    .promocje h2 {
+        font-size: 150%;
+    }
+    .big-logo, .linki-stopka, .social-media {
+        width: 100%;
+        height: auto;
+    }
+    .big-logo img {
+        width: 100%;
+    }
+    .social-media img {
+        width: 60px;
+        margin: 5px;
+    }
+    .linki-stopka img {
+        width: 50%;
+    }
+    .all-dinosaurs {
+        width: 90%;
+        height: auto;
+    }
+    .lewa, .prawa {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .div-dino {
+        width: 45%;
+        margin: 10px;
+    }
+    .div-dino img {
+        width: 100%;
+    }
+    .o-nas {
+        width: 90%;
+        padding: 5px;
+    }
+    .o-nas img {
+        width: 100px;
+    }
+    .onas1, .onas2 {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .o-nas h2 {
+        font-size: 28px;
+    }
+    .ceny {
+        width: 90%;
+        height: auto;
+    }
+    .ceny table {
+        width: 100%;
+        border-spacing: 10px;
+    }
+    .główne {
+        width: 90%;
+        padding: 5px;
+    }
+    .dino-img1, .dino-img2 {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .godziny-otwarcia table {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .godziny-dół-lewe, .godziny-dół-prawe, .godziny-góra-lewe, .godziny-góra-prawe {
+        width: 90%;
+        margin: 20px auto;
+    }
+} 
+.navbar .polska{
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+}
